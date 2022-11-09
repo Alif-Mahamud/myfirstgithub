@@ -1,0 +1,671 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style-type: none;
+}
+
+.clr {
+    clear: both;
+}
+
+/* common css end  */
+
+#top_bar {
+    padding: 15px 0;
+    background: #0872b9;
+}
+
+
+.top_bar_text_part {
+    display: flex;
+}
+
+.left {
+    width: 140px;
+}
+
+.left h5 {
+    color: #fff;
+}
+
+.right {
+    width: 800px;
+    text-align: right;
+}
+
+.right i {
+    padding-left: 25px;
+}
+
+.right a i {
+    color: #fff;
+    transition: .8s;
+}
+
+.right a i:hover {
+    color: black;
+}
+
+/* =================================  */
+
+#menu_bar {
+    padding: 20px 0;
+}
+
+.logo_and_menu {
+    display: flex;
+}
+
+.logo {
+    width: 140px;
+}
+
+.menu {
+    width: 800px;
+    text-align: right;
+}
+
+.menu ul li {
+    display: inline-block;
+
+}
+
+.menu ul li a {
+    padding-left: 20px;
+    color: black;
+    transition: .5s;
+    line-height: 40px;
+}
+
+.menu ul li a:hover {
+    color: #0872b9;
+}
+
+/* ===============================  */
+#banar_part_start {
+    padding: 90px 0;
+    background: url(../images/banar_part.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.banar_text_part {
+    text-align: right;
+}
+
+.banar_text_part h2 {
+    color: #fff;
+}
+
+.banar_text_part h1 {
+    color: #fff;
+}
+
+.banar_text_part p {
+    color: #fff;
+    padding-left: 400px;
+    padding-bottom: 35px;
+}
+
+.banar_text_part a span {
+    padding: 10px 15px;
+    border: 1px solid #fff;
+    margin-left: 20px;
+    color: #fff;
+    transition: .5s;
+}
+
+.banar_text_part a span:hover {
+    background: #0872b9;
+}
+
+/* ==================================  */
+#about_us {
+    padding: 60px 0;
+}
+
+.about_us_text_part {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.about_us_text_part h3 {
+    font-size: 24px;
+    font-weight: 500;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 6px;
+}
+
+.about_us_text_part h4 {
+    font-size: 24px;
+    font-weight: 500;
+    display: inline-block;
+    position: relative;
+    padding-bottom: 6px;
+}
+
+
+.about_us_text_part h3::before {
+    position: absolute;
+    content: "";
+    background: #0872b9;
+    height: 1px;
+    width: 50px;
+    bottom: 0;
+}
+
+.about_us_text_part h3::after {
+    position: absolute;
+    content: "";
+    background: #0872b9;
+    height: 1px;
+    width: 3px;
+    bottom: 0;
+    left: 53px;
+}
+
+.about_us_text_part h4::before {
+    position: absolute;
+    content: "";
+    background: #0872b9;
+    height: 1px;
+    width: 2px;
+    bottom: 0;
+    left: -20%;
+
+}
+
+.about_us_text_part h4::after {
+    position: absolute;
+    content: "";
+    background: #0872b9;
+    height: 1px;
+    width: 1px;
+    bottom: 0;
+    left: -10%;
+
+
+}
+
+/* =================================  */
+
+.about_us_photo_and_discription {
+    display: flex;
+}
+
+.about_us_photo {
+    margin-top: 45px;
+    width: 380px;
+    margin-right: 20px;
+}
+
+.about_us_text {
+    width: 540px;
+    margin-top: 85px;
+}
+
+.about_us_text p {
+    color: #555555;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* ==================================  */
+
+#our_service_part {
+    padding-bottom: 60px;
+}
+
+.two_time {
+    position: relative;
+}
+
+.two_time h3::before {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 50px;
+    background: #0872b9;
+
+
+}
+
+.two_time h3::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 3px;
+    background: #0872b9;
+
+
+}
+
+.two_time h4::after {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 2px;
+    background: #0872b9;
+    left: 20%;
+
+
+}
+
+.two_time h4::before {
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 1px;
+    background: #0872b9;
+    left: 25%;
+
+
+}
+
+.our_service_card_part {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.indivusual_card {
+
+    margin-top: 70px;
+    width: 300px;
+
+    background: #f1f1f1;
+    box-shadow:
+        0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+        0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+        0 12.5px 10px rgba(0, 0, 0, 0.06),
+        0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+        0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+        0 100px 80px rgba(0, 0, 0, 0);
+    position: relative;
+
+}
+
+.circle_div {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: #fff;
+    border: 5px solid white;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+}
+
+.circle_div_2 {
+
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    border: 1px solid #e2e2e2;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.circle_div_3 {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+
+    background: #e2e2e2;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transition: .5s;
+}
+
+.circle_div_3 img {
+    width: 30px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.circle_div_3:hover {
+    background: #5bc5f4;
+}
+
+.indivusual_card {
+    text-align: center;
+}
+
+.indivusual_card h5 {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: #353535;
+}
+
+.indivusual_card p {
+    line-height: 24px;
+    padding-bottom: 25px;
+    color: #555555;
+}
+
+/* ===============================  */
+
+
+#our_potfolio_part {}
+
+.our_potfolio_text {
+    text-align: center;
+}
+
+.our_potfolio_text h5 {
+    position: relative;
+    padding-bottom: 6px;
+    font-size: 24px;
+    font-weight: 500;
+    display: inline-block;
+    padding-top: 40px;
+
+}
+
+.our_potfolio_text h6 {
+    position: relative;
+    padding-bottom: 6px;
+    font-size: 24px;
+    font-weight: 500;
+    display: inline-block;
+    padding-top: 40px;
+
+}
+
+.our_potfolio_text h5::before {
+    position: absolute;
+    content: "";
+    background: #0872b9;
+    height: 1px;
+    width: 50px;
+    bottom: 0;
+}
+
+.our_potfolio_text h5::after {
+    position: absolute;
+    content: "";
+    background: #0872b9;
+    height: 1px;
+    width: 3px;
+    bottom: 0;
+    left: 140%;
+}
+
+.our_potfolio_text h6::before {
+    position: absolute;
+    content: "";
+    background: #0872b9;
+    height: 1px;
+    width: 2px;
+    bottom: 0;
+    left: 30%;
+}
+
+.our_potfolio_text h6::after {
+    position: absolute;
+    content: "";
+    background: #0872b9;
+    height: 1px;
+    width: 1px;
+    bottom: 0;
+    right: 60%;
+}
+
+
+
+.flex_box_images {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.images_box{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+ gap: 10px;
+}
+
+.small_bax{
+    width: 227.5px;
+    height: 220px;
+    position: relative;
+   
+}
+.small_bax img{
+    width:100%;
+    height:100%;
+}
+
+.overly{
+    height: 220px;
+    width: 227.5px;
+    background: rgba(0, 0, 0, 0.669);
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+    cursor: pointer;
+}
+.overly_2{
+    height: 300px;
+    width: 227.5px;
+    background: rgba(0, 0, 0, 0.669);
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.small_bax img.icon{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+.big_box img.icon{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+
+.big_box{
+    height: 300px;
+    width: 227.5px;
+  position: relative;
+}
+
+.big_box img{
+    height:100%;
+    width: 100%;
+  
+}
+
+.overly_2{
+    height: 300px;
+    width: 227.5px;
+    background: rgba(0, 0, 0, 0.669);
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+  
+    
+}
+
+.small_bax:hover .overly{
+visibility: visible;
+opacity: 1;
+
+
+
+}
+
+.small_bax:hover img.icon{
+   visibility: visible;
+   opacity: 1;
+   cursor: pointer;
+}
+.big_box:hover .overly_2{
+visibility: visible;
+opacity: 1;
+
+
+
+}
+.big_box:hover img.icon{
+   visibility: visible;
+   opacity: 1;
+   cursor: pointer;
+}
+
+
+/* ===================== our team part  */
+
+#Our_team_part{
+    margin-bottom: 30px;
+}
+
+#our_team_photo_and_social_link .container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+.images_and_link{
+width: 220px;
+height: 270px;
+position: relative;
+}
+
+.images_and_link img{
+    height: 100%;
+    width: 100%;
+}
+.overly_conten{
+    width: 80px;
+    height: 270px;
+    background: rgba(0, 0, 0, 0.607);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+}
+
+.shape_content{
+    height: 40px;
+    width: 40px;
+    border: 1px solid#fff;
+    border-radius: 50%;
+   display: flex;
+ align-items: center;
+ justify-content: center;
+ cursor: pointer;
+  
+   
+}
+.shape_content i{
+   color: #fff;
+   
+}
+
+.images_and_link:hover .overly_conten{
+visibility: visible;
+opacity: 1;
+}
+
+.shape_content:hover{
+    background: #0872b9;
+    border-color:#0872b9 ;
+    transition: .5s;
+}
+
+#person_text_part .container{
+   display: flex;
+   justify-content: space-between; 
+}
+
+.person_text_part_name{
+width: 220px;
+text-align: center;
+}
+.person_text_part_name h5{
+    padding-top: 10px;
+    padding-bottom: 10px;
+font-size: 16px;
+font-weight: 500;
+}
+.person_text_part_name p{
+  font-size: 14px;
+  font-weight: 400;
+}
+/* ======================== testimonial start  */
+/* ======================== testimonial end  */
+
+
+#testimonial_part{
+    padding: 60px 0;
+}
